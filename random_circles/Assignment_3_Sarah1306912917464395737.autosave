@@ -1,0 +1,9 @@
+void setUp() {
+    fullScreen();
+    background(0);
+    frameRate(4);
+}
+
+void draw() {
+    
+}
