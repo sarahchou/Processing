@@ -14,11 +14,6 @@ boolean pause, startParty, showSongs, friendMode;
 int[] data;
 int counter = 0;
 
-//public void settings() {
-//  size(620, 540);
-//}
-
-
 void setup() {
   fullScreen();
   //read the list of color hues from the data file 
@@ -27,7 +22,7 @@ void setup() {
   setupAudio();
 
   //allow for live video, set the size of the screen
-  video = new Capture(this, 320, 240);
+  video = new Capture(this, width, height);
   video.start();
   frameRate(7);
 
@@ -118,20 +113,7 @@ void drawLasers() {
 
     float volume = song.left.get(i) * i;
 
-//when laser length is controlled by volume and color is controlled by beat
-    ////left laser group
-    //stroke(colorArray[i] * counter * 15, 60, 100);
-
-    //line(width / 4, 0, (width / colorArray.length) * i, height * volume);
-    ////middle
-    //stroke(colorArray[i], 100, 100);
-
-    //line(width / 2, 0, (width / colorArray.length) * i, height * volume);
-    ////right
-    //stroke(colorArray[i] * counter / 5, 60, 100);
-    //line((width / 4) * 3, 0, (width / colorArray.length) * i, height * volume);
-
-//when laser length is controlled by beat and color is controlled by volume
+// laser length is controlled by beat and color is controlled by volume
     //top left
     stroke(colorArray[i] * song.left.get(1) * i, 60, 100);
 
@@ -179,10 +161,10 @@ void draw() {
     textSize(20);
 
     fill(255);
-    text(startMessage, 250, 20, 160, 190);
+    text(startMessage, (width / 2)-40, 20, 160, 190);
     textSize(14);
-    text(moreInstructions, 100, 200, 160, 190);
-    text(friends, 340, 200, 160, 190);
+    text(moreInstructions, (width / 4) - 40, 200, 160, 190);
+    text(friends, 3 * (width / 4), 200, 160, 190);
   }
 
   if (showSongs) {
