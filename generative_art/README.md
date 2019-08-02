@@ -1,5 +1,5 @@
 # Prompt:
-This was Assignment 3 for Creative Coding:
+This was the final version of Assignment 3 for Creative Coding:
 Create a procedural pattern using recursion (and possibly randomness). You may use abstract lines, colors, and/or text. Consider aesthetic choices including color and form and how those relate to the concept of your procedure. In your compositions, seek balance between order and chaos, simplicity and complexity, the mechanical and the organic.
 
 
