@@ -6,7 +6,7 @@
 */
 
 import java.util.*;
-AEC aec; 
+
 
 //initialize variables
 Random g = new Random();
