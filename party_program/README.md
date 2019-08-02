@@ -5,7 +5,9 @@ This project will employ an outside data source:  images (photographs, drawings,
 
 # What It Does: 
 Party Program is a party/concert/rave simulator! It has changing "lights" and "lasers",
-different songs, and "friends" * to dance with as well as a camera on you!
+different songs, and "friends"* to dance with as well as a camera on you!
+ 
+ *I changed the photos from pictures of my friends to pictures of the artists of the songs I chose, since this is publicly on GitHub.
 
 # How It Works:
 The screen shows video input from your webcam (get ready to see yourself partying!)
@@ -17,8 +19,7 @@ Volume also controls the laser color.
 
 Party Program was inspired by going to see a concert with friends, and seeing a bunch of pretty lights and also thinking about missing my friends
  after this Dialogue is over. With Party Program, I can always dance and sing along with them virtually. :) 
- 
- *I changed the photos from pictures of my friends to pictures of the artists of the songs I chose, since this is publicly on GitHub.
+
 
 ### Data Input:
  "Party Program" takes in a few different forms of input: 
