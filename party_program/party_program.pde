@@ -3,26 +3,7 @@
  / Creative Coding 
  / Art in Austria
  / Data Input Assignment 4
- /
- / "Party Program" takes in a few different forms of input: 
- / - a text file with color values (HSB Hues)
- / - images (of friends)
- / - live video input from computer webcam
- / - song files (as MP3)
- / What it is: 
- / Party simulator! Changing lights and lasers, different songs, friends to dance with and a camera on you!
- /
- / How it works: 
- / Press an number to play a song, press s to see the list of songs (it's more fun as a surprise though!)
- / The screen shows video input from your webcam (get ready to party!). If Friend Mode is activated (press f)
- / friend images will grow and shrink according to volume level in the song. 
- /    (Note: Friend Mode makes the program much slower. Press 'n' to deactivate friend mode).
- / The beat of the song affects the tint color of the screen, as well as the laser size. 
- / Volume also controls the laser color.
- / Press SPACE to pause and playthe song. At any moment, feel free to DJ by pressing a different number for a different song. 
- / (Inspired by going to see a concert with friends, and seeing a bunch of pretty lights and also thinking about missing my friends
- / after this Dialogue is over, but with Party Program, I can always dance and sing along with them virtually. :) 
- */
+*/
 
 import processing.video.*;
 import java.util.*;
