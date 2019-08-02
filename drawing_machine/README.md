@@ -1,5 +1,3 @@
-
-
 # Prompt:
 This was Assignment 1 for Creative Coding: Have at least two inputs (key, mouse, mic, vid) and one of each:
 - rectangle
