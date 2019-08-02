@@ -73,8 +73,7 @@ void drawVideos(int hue, int sat, int bright) {
 void drawFriends(int hue, int sat, int bright) {
   tint(hue, sat, bright);
   //changing size based on volume
-  float size = song.left.get(1) * 400;
-  //int size = 100;
+  float size = song.left.get(1) * 700;
   float position = height - 70;
 
   //load images of friends
@@ -86,10 +85,10 @@ void drawFriends(int hue, int sat, int bright) {
   PImage zac = loadImage("images/zacefron.png");
 
   PImage[] pics = new PImage[] { bsb, illenium, lilnasx, tim, wii, zac };
-  int startPosition = 140;
+  int startPosition = width / pics.length;
   for (PImage pic : pics) {
     image(pic, startPosition, position, size, size);
-    startPosition += 60;
+    startPosition += 160;
   }
 }
 
